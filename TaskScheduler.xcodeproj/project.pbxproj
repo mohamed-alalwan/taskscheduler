@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD88AA425A1E76600080B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA325A1E76600080B5F /* AppDelegate.swift */; };
+		EFD88AA625A1E76600080B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA525A1E76600080B5F /* SceneDelegate.swift */; };
+		EFD88AA825A1E76600080B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA725A1E76600080B5F /* ViewController.swift */; };
+		EFD88AAB25A1E76600080B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AA925A1E76600080B5F /* Main.storyboard */; };
+		EFD88AAE25A1E76600080B5F /* TaskScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AAC25A1E76600080B5F /* TaskScheduler.xcdatamodeld */; };
+		EFD88AB025A1E76700080B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AAF25A1E76700080B5F /* Assets.xcassets */; };
+		EFD88AB325A1E76700080B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AB125A1E76700080B5F /* LaunchScreen.storyboard */; };
+		EFD88ABE25A1E76700080B5F /* TaskSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88ABD25A1E76700080B5F /* TaskSchedulerTests.swift */; };
+		EFD88AC925A1E76700080B5F /* TaskSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AC825A1E76700080B5F /* TaskSchedulerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD88ABA25A1E76700080B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD88A9825A1E76600080B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD88A9F25A1E76600080B5F;
+			remoteInfo = TaskScheduler;
+		};
+		EFD88AC525A1E76700080B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD88A9825A1E76600080B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD88A9F25A1E76600080B5F;
+			remoteInfo = TaskScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD88AA025A1E76600080B5F /* TaskScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD88AA325A1E76600080B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD88AA525A1E76600080B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFD88AA725A1E76600080B5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFD88AAA25A1E76600080B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD88AAD25A1E76600080B5F /* TaskScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskScheduler.xcdatamodel; sourceTree = "<group>"; };
+		EFD88AAF25A1E76700080B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD88AB225A1E76700080B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFD88AB425A1E76700080B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD88AB925A1E76700080B5F /* TaskSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD88ABD25A1E76700080B5F /* TaskSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSchedulerTests.swift; sourceTree = "<group>"; };
+		EFD88ABF25A1E76700080B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD88AC425A1E76700080B5F /* TaskSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD88AC825A1E76700080B5F /* TaskSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSchedulerUITests.swift; sourceTree = "<group>"; };
+		EFD88ACA25A1E76700080B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD88A9D25A1E76600080B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AB625A1E76700080B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AC125A1E76700080B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD88A9725A1E76600080B5F = {
+			isa = PBXGroup;
+			children = (
+				EFD88AA225A1E76600080B5F /* TaskScheduler */,
+				EFD88ABC25A1E76700080B5F /* TaskSchedulerTests */,
+				EFD88AC725A1E76700080B5F /* TaskSchedulerUITests */,
+				EFD88AA125A1E76600080B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD88AA125A1E76600080B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88AA025A1E76600080B5F /* TaskScheduler.app */,
+				EFD88AB925A1E76700080B5F /* TaskSchedulerTests.xctest */,
+				EFD88AC425A1E76700080B5F /* TaskSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD88AA225A1E76600080B5F /* TaskScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88AA325A1E76600080B5F /* AppDelegate.swift */,
+				EFD88AA525A1E76600080B5F /* SceneDelegate.swift */,
+				EFD88AA725A1E76600080B5F /* ViewController.swift */,
+				EFD88AA925A1E76600080B5F /* Main.storyboard */,
+				EFD88AAF25A1E76700080B5F /* Assets.xcassets */,
+				EFD88AB125A1E76700080B5F /* LaunchScreen.storyboard */,
+				EFD88AB425A1E76700080B5F /* Info.plist */,
+				EFD88AAC25A1E76600080B5F /* TaskScheduler.xcdatamodeld */,
+			);
+			path = TaskScheduler;
+			sourceTree = "<group>";
+		};
+		EFD88ABC25A1E76700080B5F /* TaskSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88ABD25A1E76700080B5F /* TaskSchedulerTests.swift */,
+				EFD88ABF25A1E76700080B5F /* Info.plist */,
+			);
+			path = TaskSchedulerTests;
+			sourceTree = "<group>";
+		};
+		EFD88AC725A1E76700080B5F /* TaskSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88AC825A1E76700080B5F /* TaskSchedulerUITests.swift */,
+				EFD88ACA25A1E76700080B5F /* Info.plist */,
+			);
+			path = TaskSchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD88A9F25A1E76600080B5F /* TaskScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD88ACD25A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskScheduler" */;
+			buildPhases = (
+				EFD88A9C25A1E76600080B5F /* Sources */,
+				EFD88A9D25A1E76600080B5F /* Frameworks */,
+				EFD88A9E25A1E76600080B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskScheduler;
+			productName = TaskScheduler;
+			productReference = EFD88AA025A1E76600080B5F /* TaskScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD88AB825A1E76700080B5F /* TaskSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD88AD025A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerTests" */;
+			buildPhases = (
+				EFD88AB525A1E76700080B5F /* Sources */,
+				EFD88AB625A1E76700080B5F /* Frameworks */,
+				EFD88AB725A1E76700080B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD88ABB25A1E76700080B5F /* PBXTargetDependency */,
+			);
+			name = TaskSchedulerTests;
+			productName = TaskSchedulerTests;
+			productReference = EFD88AB925A1E76700080B5F /* TaskSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD88AC325A1E76700080B5F /* TaskSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD88AD325A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerUITests" */;
+			buildPhases = (
+				EFD88AC025A1E76700080B5F /* Sources */,
+				EFD88AC125A1E76700080B5F /* Frameworks */,
+				EFD88AC225A1E76700080B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD88AC625A1E76700080B5F /* PBXTargetDependency */,
+			);
+			name = TaskSchedulerUITests;
+			productName = TaskSchedulerUITests;
+			productReference = EFD88AC425A1E76700080B5F /* TaskSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD88A9825A1E76600080B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EFD88A9F25A1E76600080B5F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EFD88AB825A1E76700080B5F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EFD88A9F25A1E76600080B5F;
+					};
+					EFD88AC325A1E76700080B5F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EFD88A9F25A1E76600080B5F;
+					};
+				};
+			};
+			buildConfigurationList = EFD88A9B25A1E76600080B5F /* Build configuration list for PBXProject "TaskScheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD88A9725A1E76600080B5F;
+			productRefGroup = EFD88AA125A1E76600080B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD88A9F25A1E76600080B5F /* TaskScheduler */,
+				EFD88AB825A1E76700080B5F /* TaskSchedulerTests */,
+				EFD88AC325A1E76700080B5F /* TaskSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD88A9E25A1E76600080B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD88AB325A1E76700080B5F /* LaunchScreen.storyboard in Resources */,
+				EFD88AB025A1E76700080B5F /* Assets.xcassets in Resources */,
+				EFD88AAB25A1E76600080B5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AB725A1E76700080B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AC225A1E76700080B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD88A9C25A1E76600080B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD88AAE25A1E76600080B5F /* TaskScheduler.xcdatamodeld in Sources */,
+				EFD88AA825A1E76600080B5F /* ViewController.swift in Sources */,
+				EFD88AA425A1E76600080B5F /* AppDelegate.swift in Sources */,
+				EFD88AA625A1E76600080B5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AB525A1E76700080B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD88ABE25A1E76700080B5F /* TaskSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD88AC025A1E76700080B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD88AC925A1E76700080B5F /* TaskSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD88ABB25A1E76700080B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD88A9F25A1E76600080B5F /* TaskScheduler */;
+			targetProxy = EFD88ABA25A1E76700080B5F /* PBXContainerItemProxy */;
+		};
+		EFD88AC625A1E76700080B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD88A9F25A1E76600080B5F /* TaskScheduler */;
+			targetProxy = EFD88AC525A1E76700080B5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD88AA925A1E76600080B5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD88AAA25A1E76600080B5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD88AB125A1E76700080B5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD88AB225A1E76700080B5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD88ACB25A1E76700080B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD88ACC25A1E76700080B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD88ACE25A1E76700080B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskScheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD88ACF25A1E76700080B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskScheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD88AD125A1E76700080B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskSchedulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskSchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskScheduler.app/TaskScheduler";
+			};
+			name = Debug;
+		};
+		EFD88AD225A1E76700080B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskSchedulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskSchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskScheduler.app/TaskScheduler";
+			};
+			name = Release;
+		};
+		EFD88AD425A1E76700080B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskSchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskScheduler;
+			};
+			name = Debug;
+		};
+		EFD88AD525A1E76700080B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-201601446-201601341.TaskSchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD88A9B25A1E76600080B5F /* Build configuration list for PBXProject "TaskScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD88ACB25A1E76700080B5F /* Debug */,
+				EFD88ACC25A1E76700080B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD88ACD25A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD88ACE25A1E76700080B5F /* Debug */,
+				EFD88ACF25A1E76700080B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD88AD025A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD88AD125A1E76700080B5F /* Debug */,
+				EFD88AD225A1E76700080B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD88AD325A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD88AD425A1E76700080B5F /* Debug */,
+				EFD88AD525A1E76700080B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFD88AAC25A1E76600080B5F /* TaskScheduler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFD88AAD25A1E76600080B5F /* TaskScheduler.xcdatamodel */,
+			);
+			currentVersion = EFD88AAD25A1E76600080B5F /* TaskScheduler.xcdatamodel */;
+			path = TaskScheduler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFD88A9825A1E76600080B5F /* Project object */;
+}
