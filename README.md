@@ -41,41 +41,52 @@ I developed this iOS app with the help of my teammate Yaqoob Husain during my Ba
 
 ## Low Fidelity Wireframes
 - Auth Screens
+
 ![This is an image](./readme_images/login.jpg)
 
 - Project Management
+
 ![This is an image](./readme_images/manage_projects.jpg)
 
 - Task Management
+
 ![This is an image](./readme_images/manage_tasks.jpg)
 
 - Task Details
+
 ![This is an image](./readme_images/task_details.png)
 
 - Task Priority
+
 ![This is an image](./readme_images/priority.png)
 
 - Task Statistics
+
 ![This is an image](./readme_images/statistics.png)
 
 ## High Fidelity Wireframes (Adobe XD)
 
 - Auth Screens
+
 ![This is an image](./readme_images/login_high.png)
 
 - Project Management
+
 ![This is an image](./readme_images/project_high.png)
 ![This is an image](./readme_images/project_high2.png)
 
 - Task Management
+
 ![This is an image](./readme_images/task_high.png)
 ![This is an image](./readme_images/task_high2.png)
 ![This is an image](./readme_images/task_high3.png)
 
 - Search
+
 ![This is an image](./readme_images/search_high.png)
 
 - Notification Settings
+
 ![This is an image](./readme_images/settings_high.png)
 
 ## Developed By
