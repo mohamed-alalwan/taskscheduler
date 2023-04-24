@@ -1,0 +1,6 @@
+framework module Pods_TaskScheduler_TaskSchedulerUITests {
+  umbrella header "Pods-TaskScheduler-TaskSchedulerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

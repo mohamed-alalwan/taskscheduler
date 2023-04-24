@@ -3,19 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731E1772EC8CFA9CED2334E7 /* Pods_TaskScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679D6A4F78C397A9709744A /* Pods_TaskScheduler.framework */; };
+		93216A813C988AA53CCED3A1 /* Pods_TaskScheduler_TaskSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212CE7E72346C74575891B84 /* Pods_TaskScheduler_TaskSchedulerUITests.framework */; };
+		D91238D49E81BD4EB5D2F772 /* Pods_TaskSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C69F327DF9F76DBF433AF4D /* Pods_TaskSchedulerTests.framework */; };
+		EF3F4CB425A30FA7003F9B62 /* ProjectAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CB325A30FA7003F9B62 /* ProjectAddViewController.swift */; };
+		EF3F4CCA25A36140003F9B62 /* ProjectEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CC925A36140003F9B62 /* ProjectEditViewController.swift */; };
+		EF3F4CD025A37D80003F9B62 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CCF25A37D80003F9B62 /* TaskViewController.swift */; };
+		EF3F4CD825A37D9B003F9B62 /* TaskAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CD725A37D9B003F9B62 /* TaskAddViewController.swift */; };
+		EF3F4CDD25A37DA6003F9B62 /* TaskEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CDC25A37DA6003F9B62 /* TaskEditViewController.swift */; };
+		EF3F4CE225A37DED003F9B62 /* TaskTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F4CE125A37DED003F9B62 /* TaskTableCell.swift */; };
+		EF8E792C29F7081B00BC2DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF8E792B29F7081B00BC2DF8 /* GoogleService-Info.plist */; };
+		EF971D8F25A78C9F00A96B10 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF971D8E25A78C9F00A96B10 /* NotificationViewController.swift */; };
+		EF971D9725A7C89C00A96B10 /* Alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF971D9625A7C89C00A96B10 /* Alarm.wav */; };
+		EF971DA325A8586000A96B10 /* Digital.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF971DA225A8586000A96B10 /* Digital.wav */; };
+		EF971DA825A8586600A96B10 /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF971DA725A8586600A96B10 /* Buzzer.wav */; };
+		EF971DAD25A8586C00A96B10 /* Marimba.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF971DAC25A8586C00A96B10 /* Marimba.wav */; };
 		EFD88AA425A1E76600080B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA325A1E76600080B5F /* AppDelegate.swift */; };
 		EFD88AA625A1E76600080B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA525A1E76600080B5F /* SceneDelegate.swift */; };
-		EFD88AA825A1E76600080B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AA725A1E76600080B5F /* ViewController.swift */; };
 		EFD88AAB25A1E76600080B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AA925A1E76600080B5F /* Main.storyboard */; };
 		EFD88AAE25A1E76600080B5F /* TaskScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AAC25A1E76600080B5F /* TaskScheduler.xcdatamodeld */; };
 		EFD88AB025A1E76700080B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AAF25A1E76700080B5F /* Assets.xcassets */; };
 		EFD88AB325A1E76700080B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD88AB125A1E76700080B5F /* LaunchScreen.storyboard */; };
 		EFD88ABE25A1E76700080B5F /* TaskSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88ABD25A1E76700080B5F /* TaskSchedulerTests.swift */; };
 		EFD88AC925A1E76700080B5F /* TaskSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AC825A1E76700080B5F /* TaskSchedulerUITests.swift */; };
+		EFD88ADD25A1E83E00080B5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88ADC25A1E83E00080B5F /* HomeViewController.swift */; };
+		EFD88AE625A1E8D700080B5F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AE525A1E8D700080B5F /* SignInViewController.swift */; };
+		EFD88AEB25A1E8E200080B5F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AEA25A1E8E200080B5F /* SignUpViewController.swift */; };
+		EFD88AF025A1E8FA00080B5F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88AEF25A1E8FA00080B5F /* ForgotPasswordViewController.swift */; };
+		EFD88B1A25A22B4600080B5F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88B1925A22B4600080B5F /* Service.swift */; };
+		EFD88B2D25A237E300080B5F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88B2C25A237E300080B5F /* TabBarController.swift */; };
+		EFD88B3925A23E6500080B5F /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88B3825A23E6500080B5F /* ProjectViewController.swift */; };
+		EFD88B3E25A23E9200080B5F /* ProjectTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD88B3D25A23E9200080B5F /* ProjectTableCell.swift */; };
+		EFECB6E825A6067400B5B713 /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFECB6E725A6067400B5B713 /* TaskDetailsViewController.swift */; };
+		EFECB6ED25A64E3400B5B713 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFECB6EC25A64E3400B5B713 /* ProjectDetailsViewController.swift */; };
+		EFECB6F225A676EF00B5B713 /* ProjectTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFECB6F125A676EF00B5B713 /* ProjectTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +61,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E2A7E65CAB501A67FA00F5 /* Pods-TaskScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskScheduler.release.xcconfig"; path = "Target Support Files/Pods-TaskScheduler/Pods-TaskScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		212CE7E72346C74575891B84 /* Pods_TaskScheduler_TaskSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskScheduler_TaskSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2679D6A4F78C397A9709744A /* Pods_TaskScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574C45862FB6B12CAAD3E18C /* Pods-TaskSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskSchedulerTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskSchedulerTests/Pods-TaskSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C69F327DF9F76DBF433AF4D /* Pods_TaskSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		988F52EEA3F00CE32911D717 /* Pods-TaskSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskSchedulerTests.release.xcconfig"; path = "Target Support Files/Pods-TaskSchedulerTests/Pods-TaskSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		98C21BBB1091A0248895C539 /* Pods-TaskScheduler-TaskSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskScheduler-TaskSchedulerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaskScheduler-TaskSchedulerUITests/Pods-TaskScheduler-TaskSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3F5109B75A7CCF2A51E399 /* Pods-TaskScheduler-TaskSchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskScheduler-TaskSchedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-TaskScheduler-TaskSchedulerUITests/Pods-TaskScheduler-TaskSchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BEB905B980B8FAA2C133B085 /* Pods-TaskScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskScheduler.debug.xcconfig"; path = "Target Support Files/Pods-TaskScheduler/Pods-TaskScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3F4CB325A30FA7003F9B62 /* ProjectAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAddViewController.swift; sourceTree = "<group>"; };
+		EF3F4CC925A36140003F9B62 /* ProjectEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEditViewController.swift; sourceTree = "<group>"; };
+		EF3F4CCF25A37D80003F9B62 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		EF3F4CD725A37D9B003F9B62 /* TaskAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAddViewController.swift; sourceTree = "<group>"; };
+		EF3F4CDC25A37DA6003F9B62 /* TaskEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditViewController.swift; sourceTree = "<group>"; };
+		EF3F4CE125A37DED003F9B62 /* TaskTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableCell.swift; sourceTree = "<group>"; };
+		EF8E792B29F7081B00BC2DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF971D8E25A78C9F00A96B10 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EF971D9625A7C89C00A96B10 /* Alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alarm.wav; sourceTree = "<group>"; };
+		EF971DA225A8586000A96B10 /* Digital.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Digital.wav; sourceTree = "<group>"; };
+		EF971DA725A8586600A96B10 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
+		EF971DAC25A8586C00A96B10 /* Marimba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Marimba.wav; sourceTree = "<group>"; };
+		EF971DB725A9369800A96B10 /* BPGeneral.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = BPGeneral.mobileprovision; sourceTree = "<group>"; };
 		EFD88AA025A1E76600080B5F /* TaskScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD88AA325A1E76600080B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD88AA525A1E76600080B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFD88AA725A1E76600080B5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFD88AAA25A1E76600080B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFD88AAD25A1E76600080B5F /* TaskScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskScheduler.xcdatamodel; sourceTree = "<group>"; };
 		EFD88AAF25A1E76700080B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +97,17 @@
 		EFD88AC425A1E76700080B5F /* TaskSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD88AC825A1E76700080B5F /* TaskSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSchedulerUITests.swift; sourceTree = "<group>"; };
 		EFD88ACA25A1E76700080B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD88ADC25A1E83E00080B5F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EFD88AE525A1E8D700080B5F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EFD88AEA25A1E8E200080B5F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EFD88AEF25A1E8FA00080B5F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EFD88B1925A22B4600080B5F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EFD88B2C25A237E300080B5F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EFD88B3825A23E6500080B5F /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		EFD88B3D25A23E9200080B5F /* ProjectTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableCell.swift; sourceTree = "<group>"; };
+		EFECB6E725A6067400B5B713 /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		EFECB6EC25A64E3400B5B713 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		EFECB6F125A676EF00B5B713 /* ProjectTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731E1772EC8CFA9CED2334E7 /* Pods_TaskScheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91238D49E81BD4EB5D2F772 /* Pods_TaskSchedulerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +131,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93216A813C988AA53CCED3A1 /* Pods_TaskScheduler_TaskSchedulerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84478288D30DC132255B4BAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEB905B980B8FAA2C133B085 /* Pods-TaskScheduler.debug.xcconfig */,
+				10E2A7E65CAB501A67FA00F5 /* Pods-TaskScheduler.release.xcconfig */,
+				98C21BBB1091A0248895C539 /* Pods-TaskScheduler-TaskSchedulerUITests.debug.xcconfig */,
+				9A3F5109B75A7CCF2A51E399 /* Pods-TaskScheduler-TaskSchedulerUITests.release.xcconfig */,
+				574C45862FB6B12CAAD3E18C /* Pods-TaskSchedulerTests.debug.xcconfig */,
+				988F52EEA3F00CE32911D717 /* Pods-TaskSchedulerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF3F4CCE25A37D61003F9B62 /* Task Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF3F4CCF25A37D80003F9B62 /* TaskViewController.swift */,
+				EF3F4CD725A37D9B003F9B62 /* TaskAddViewController.swift */,
+				EF3F4CDC25A37DA6003F9B62 /* TaskEditViewController.swift */,
+				EF3F4CE125A37DED003F9B62 /* TaskTableCell.swift */,
+				EFECB6E725A6067400B5B713 /* TaskDetailsViewController.swift */,
+			);
+			path = "Task Controllers";
+			sourceTree = "<group>";
+		};
 		EFD88A9725A1E76600080B5F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +170,8 @@
 				EFD88ABC25A1E76700080B5F /* TaskSchedulerTests */,
 				EFD88AC725A1E76700080B5F /* TaskSchedulerUITests */,
 				EFD88AA125A1E76600080B5F /* Products */,
+				84478288D30DC132255B4BAC /* Pods */,
+				F6296470EE7C7FEA44B235DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +190,22 @@
 			children = (
 				EFD88AA325A1E76600080B5F /* AppDelegate.swift */,
 				EFD88AA525A1E76600080B5F /* SceneDelegate.swift */,
-				EFD88AA725A1E76600080B5F /* ViewController.swift */,
+				EFD88B3425A23E3000080B5F /* Project Controllers */,
+				EF3F4CCE25A37D61003F9B62 /* Task Controllers */,
+				EFD88AE125A1E84700080B5F /* Auth View Controllers */,
+				EFD88B2C25A237E300080B5F /* TabBarController.swift */,
+				EF971D8E25A78C9F00A96B10 /* NotificationViewController.swift */,
+				EFD88B1925A22B4600080B5F /* Service.swift */,
 				EFD88AA925A1E76600080B5F /* Main.storyboard */,
 				EFD88AAF25A1E76700080B5F /* Assets.xcassets */,
+				EF971D9625A7C89C00A96B10 /* Alarm.wav */,
+				EF971DA225A8586000A96B10 /* Digital.wav */,
+				EF971DA725A8586600A96B10 /* Buzzer.wav */,
+				EF971DAC25A8586C00A96B10 /* Marimba.wav */,
 				EFD88AB125A1E76700080B5F /* LaunchScreen.storyboard */,
 				EFD88AB425A1E76700080B5F /* Info.plist */,
+				EF8E792B29F7081B00BC2DF8 /* GoogleService-Info.plist */,
+				EF971DB725A9369800A96B10 /* BPGeneral.mobileprovision */,
 				EFD88AAC25A1E76600080B5F /* TaskScheduler.xcdatamodeld */,
 			);
 			path = TaskScheduler;
@@ -131,6 +229,40 @@
 			path = TaskSchedulerUITests;
 			sourceTree = "<group>";
 		};
+		EFD88AE125A1E84700080B5F /* Auth View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88ADC25A1E83E00080B5F /* HomeViewController.swift */,
+				EFD88AE525A1E8D700080B5F /* SignInViewController.swift */,
+				EFD88AEA25A1E8E200080B5F /* SignUpViewController.swift */,
+				EFD88AEF25A1E8FA00080B5F /* ForgotPasswordViewController.swift */,
+			);
+			path = "Auth View Controllers";
+			sourceTree = "<group>";
+		};
+		EFD88B3425A23E3000080B5F /* Project Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD88B3825A23E6500080B5F /* ProjectViewController.swift */,
+				EFD88B3D25A23E9200080B5F /* ProjectTableCell.swift */,
+				EF3F4CB325A30FA7003F9B62 /* ProjectAddViewController.swift */,
+				EF3F4CC925A36140003F9B62 /* ProjectEditViewController.swift */,
+				EFECB6EC25A64E3400B5B713 /* ProjectDetailsViewController.swift */,
+				EFECB6F125A676EF00B5B713 /* ProjectTaskViewController.swift */,
+			);
+			path = "Project Controllers";
+			sourceTree = "<group>";
+		};
+		F6296470EE7C7FEA44B235DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2679D6A4F78C397A9709744A /* Pods_TaskScheduler.framework */,
+				212CE7E72346C74575891B84 /* Pods_TaskScheduler_TaskSchedulerUITests.framework */,
+				8C69F327DF9F76DBF433AF4D /* Pods_TaskSchedulerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFD88ACD25A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskScheduler" */;
 			buildPhases = (
+				9348E547701B762FEDC778E2 /* [CP] Check Pods Manifest.lock */,
 				EFD88A9C25A1E76600080B5F /* Sources */,
 				EFD88A9D25A1E76600080B5F /* Frameworks */,
 				EFD88A9E25A1E76600080B5F /* Resources */,
+				17F15876E4F40307C4624230 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFD88AD025A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerTests" */;
 			buildPhases = (
+				A78C573235AF7413494D184D /* [CP] Check Pods Manifest.lock */,
 				EFD88AB525A1E76700080B5F /* Sources */,
 				EFD88AB625A1E76700080B5F /* Frameworks */,
 				EFD88AB725A1E76700080B5F /* Resources */,
@@ -173,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFD88AD325A1E76700080B5F /* Build configuration list for PBXNativeTarget "TaskSchedulerUITests" */;
 			buildPhases = (
+				DB8D4253009F20CC5B06C956 /* [CP] Check Pods Manifest.lock */,
 				EFD88AC025A1E76700080B5F /* Sources */,
 				EFD88AC125A1E76700080B5F /* Frameworks */,
 				EFD88AC225A1E76700080B5F /* Resources */,
+				532D152FAAC20B1CE785D690 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +371,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF971DAD25A8586C00A96B10 /* Marimba.wav in Resources */,
+				EF8E792C29F7081B00BC2DF8 /* GoogleService-Info.plist in Resources */,
+				EF971DA825A8586600A96B10 /* Buzzer.wav in Resources */,
 				EFD88AB325A1E76700080B5F /* LaunchScreen.storyboard in Resources */,
 				EFD88AB025A1E76700080B5F /* Assets.xcassets in Resources */,
+				EF971D9725A7C89C00A96B10 /* Alarm.wav in Resources */,
 				EFD88AAB25A1E76600080B5F /* Main.storyboard in Resources */,
+				EF971DA325A8586000A96B10 /* Digital.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +398,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F15876E4F40307C4624230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler/Pods-TaskScheduler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler/Pods-TaskScheduler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler/Pods-TaskScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532D152FAAC20B1CE785D690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler-TaskSchedulerUITests/Pods-TaskScheduler-TaskSchedulerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler-TaskSchedulerUITests/Pods-TaskScheduler-TaskSchedulerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskScheduler-TaskSchedulerUITests/Pods-TaskScheduler-TaskSchedulerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9348E547701B762FEDC778E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskScheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A78C573235AF7413494D184D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskSchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8D4253009F20CC5B06C956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskScheduler-TaskSchedulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFD88A9C25A1E76600080B5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3F4CB425A30FA7003F9B62 /* ProjectAddViewController.swift in Sources */,
+				EF3F4CD025A37D80003F9B62 /* TaskViewController.swift in Sources */,
+				EFD88B3925A23E6500080B5F /* ProjectViewController.swift in Sources */,
+				EFD88AEB25A1E8E200080B5F /* SignUpViewController.swift in Sources */,
+				EFECB6E825A6067400B5B713 /* TaskDetailsViewController.swift in Sources */,
+				EFD88B1A25A22B4600080B5F /* Service.swift in Sources */,
+				EFD88B3E25A23E9200080B5F /* ProjectTableCell.swift in Sources */,
+				EFD88AF025A1E8FA00080B5F /* ForgotPasswordViewController.swift in Sources */,
+				EFECB6ED25A64E3400B5B713 /* ProjectDetailsViewController.swift in Sources */,
+				EF3F4CCA25A36140003F9B62 /* ProjectEditViewController.swift in Sources */,
+				EFD88B2D25A237E300080B5F /* TabBarController.swift in Sources */,
+				EF3F4CD825A37D9B003F9B62 /* TaskAddViewController.swift in Sources */,
 				EFD88AAE25A1E76600080B5F /* TaskScheduler.xcdatamodeld in Sources */,
-				EFD88AA825A1E76600080B5F /* ViewController.swift in Sources */,
+				EF3F4CE225A37DED003F9B62 /* TaskTableCell.swift in Sources */,
 				EFD88AA425A1E76600080B5F /* AppDelegate.swift in Sources */,
+				EFECB6F225A676EF00B5B713 /* ProjectTaskViewController.swift in Sources */,
 				EFD88AA625A1E76600080B5F /* SceneDelegate.swift in Sources */,
+				EF971D8F25A78C9F00A96B10 /* NotificationViewController.swift in Sources */,
+				EFD88AE625A1E8D700080B5F /* SignInViewController.swift in Sources */,
+				EFD88ADD25A1E83E00080B5F /* HomeViewController.swift in Sources */,
+				EF3F4CDD25A37DA6003F9B62 /* TaskEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +699,12 @@
 		};
 		EFD88ACE25A1E76700080B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB905B980B8FAA2C133B085 /* Pods-TaskScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89QKP782QH;
 				INFOPLIST_FILE = TaskScheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,10 +719,12 @@
 		};
 		EFD88ACF25A1E76700080B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E2A7E65CAB501A67FA00F5 /* Pods-TaskScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89QKP782QH;
 				INFOPLIST_FILE = TaskScheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +739,7 @@
 		};
 		EFD88AD125A1E76700080B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574C45862FB6B12CAAD3E18C /* Pods-TaskSchedulerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +761,7 @@
 		};
 		EFD88AD225A1E76700080B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988F52EEA3F00CE32911D717 /* Pods-TaskSchedulerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +783,7 @@
 		};
 		EFD88AD425A1E76700080B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C21BBB1091A0248895C539 /* Pods-TaskScheduler-TaskSchedulerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +803,7 @@
 		};
 		EFD88AD525A1E76700080B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3F5109B75A7CCF2A51E399 /* Pods-TaskScheduler-TaskSchedulerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

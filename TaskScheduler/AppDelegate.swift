@@ -7,17 +7,48 @@
 
 import UIKit
 import CoreData
+import Firebase
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    ///declaring userdefaullts
+    //storing bools
+    let signedCheck = UserDefaults.standard.bool(forKey: "signedIn")
+    let notify = UserDefaults.standard.bool(forKey: "notify")
+    let notiRepeat = UserDefaults.standard.bool(forKey: "notiRepeat")
+    let sound = UserDefaults.standard.bool(forKey: "sound")
+    
+    //storing string
+    let soundName = UserDefaults.standard.string(forKey: "soundName")
+    
+    //project details
+    let projects = UserDefaults.standard.array(forKey: "projects")
+    let dueDates = UserDefaults.standard.array(forKey: "dueDates")
+    let projectsDesc = UserDefaults.standard.array(forKey: "projectsDesc")
+    
+    //task details
+    let tasks = UserDefaults.standard.array(forKey: "tasks")
+    let tasksDate = UserDefaults.standard.array(forKey: "tasksDate")
+    let tasksDesc = UserDefaults.standard.array(forKey: "tasksDesc")
+    let tasksDone = UserDefaults.standard.array(forKey: "tasksDone")
+    let tasksProject = UserDefaults.standard.array(forKey: "tasksProject")
+    ///end of userdefaults declaration
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //ask for permission
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (didAllow, error) in
+        }
+        
+        FirebaseApp.configure()
         return true
     }
-
+    
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
