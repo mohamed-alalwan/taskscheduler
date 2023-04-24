@@ -3,10 +3,7 @@ Mobile App that serves as a motivator and reminder for its users to carry out th
 
 I developed this iOS app with the help of my teammate Yaqoob Husain during my Bahrain Polytechnic studies.
 
-<iframe width="560" height="315" src="https://youtu.be/ssiNwAAJggk" frameborder="0" allowfullscreen></iframe>
-
 [Demo Video Link](https://youtu.be/ssiNwAAJggk)
-
 
 ## Technology Used
 - Firebase
